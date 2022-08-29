@@ -21,3 +21,6 @@ class Control:
     def enlazar(self,tv):
         self._tv=tv;
         tv.setControl(self)
+    
+    def getTv(self):
+        return self._tv
